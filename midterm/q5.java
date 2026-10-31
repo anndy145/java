@@ -1,5 +1,6 @@
 import java.util.Scanner;
-public class Main {
+
+public class q5 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int index = sc.nextInt();
@@ -33,5 +34,7 @@ public class Main {
 		System.out.printf("Invalid: %d%n", error);
 		System.out.printf("Subtotal: $%.2f%n", price);
 		System.out.printf("Total: $%.2f%n", total);
+
+		sc.close();
 	}
 }
