@@ -1,8 +1,9 @@
+
 // This class calculates a waitperson's tip
 // as 15% of the bill
 import java.util.Scanner;
-public class DebugThree1
-{
+
+public class DebugThree1 {
    public static void main(String[] args) {
       double check1;
       double check2;
@@ -15,12 +16,12 @@ public class DebugThree1
 
       calcTip(check1);
       calcTip(check2);
-    }
+   }
 
-    public static void calcTip(double bill)
-    {
-       final double RATE = 0.15;
-       double tip = bill * RATE;
-       System.out.println("The tip should be at least $" + tip);
-    }
+   public static void calcTip(double bill) {
+      final double RATE = 0.15;
+      double tip = bill * RATE;
+      System.out.println("The tip should be at least $" + tip);
+      input.close();
+   }
 }
