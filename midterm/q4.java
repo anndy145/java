@@ -16,5 +16,6 @@ public class q4 {
         System.out.println("Volume:" + volume);
         System.out.println("Surface Area: " + surfaceArea);
 
+        input.close();
     }
 }
