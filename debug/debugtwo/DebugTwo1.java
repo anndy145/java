@@ -1,8 +1,7 @@
 import java.util.Scanner;
-public class DebugTwo1
-{
-   public static void main(String[] args)
-   {
+
+public class DebugTwo1 {
+   public static void main(String[] args) {
       int oneInt;
       double oneDouble;
       String oneString;
@@ -20,5 +19,7 @@ public class DebugTwo1
       System.out.println(oneDouble);
       System.out.print("The String is ");
       System.out.println(oneString);
+
+      input.close();
    }
 }
