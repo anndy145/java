@@ -17,7 +17,6 @@ public class DebugThree3 {
       name = input.nextLine();
       return name;
 
-      input.close();
    }
 
    public static void displayGreeting(String name) {
