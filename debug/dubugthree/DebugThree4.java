@@ -1,10 +1,10 @@
+
 // This program calculates tuition bills
 // as credits times rate per credit hour
 import java.util.Scanner;
-public class DebugThree4
-{
-   public static void main(String[] args)
-   {
+
+public class DebugThree4 {
+   public static void main(String[] args) {
       int credits1;
       int credits2;
       final double RATE = 75.84;
@@ -19,9 +19,10 @@ public class DebugThree4
 
       computeTuitionBill(credits1, RATE, credits1);
       computeTuitionBill(credits2, RATE, credits2);
+      input.close();
    }
-   public static void computeTuitionBill(int c, double r, int student)
-   {
+
+   public static void computeTuitionBill(int c, double r, int student) {
       System.out.println("Total due for student #" + student + " is $" + r * c);
    }
 }
