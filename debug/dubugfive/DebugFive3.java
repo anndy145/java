@@ -1,3 +1,4 @@
+
 // DebugFive3.java
 // Determines whether item number on order is valid
 // Over 999 invalid
@@ -6,10 +7,8 @@
 // Valid and 500 or higher Housewares Department
 import java.util.Scanner;
 
-public class DebugFive3
-{
-   public static void main (String[] args)
-   {
+public class DebugFive3 {
+   public static void main(String[] args) {
       int item;
       String output;
       final int LOW = 111;
@@ -20,17 +19,16 @@ public class DebugFive3
       System.out.print("Please enter item number >> ");
       item = input.nextInt();
 
-      if(item < LOW)
+      if (item < LOW)
          output = "Item number too low";
-      else if(item > HIGH)
+      else if (item > HIGH)
          output = "Item number too high";
-      else if(item < CUTOFF)
+      else if (item < CUTOFF)
          output = "Valid - Item in Automotive Department";
       else
          output = "Valid - Item in Housewares Department";
 
       System.out.println(output);
+      input.close();
    }
 }
-
-
