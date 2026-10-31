@@ -4,10 +4,8 @@
 
 import java.util.Scanner;
 
-public class DebugFive2
-{
-   public static void main(String args[])
-   {
+public class DebugFive2 {
+   public static void main(String args[]) {
       int num;
       int num2;
 
@@ -19,13 +17,12 @@ public class DebugFive2
       System.out.print("Enter another number ");
       num2 = input.nextInt();
 
-      if(num != 0 && num2 != 0 && ((num % num2 == 0) || (num2 % num == 0))){
+      if (num != 0 && num2 != 0 && ((num % num2 == 0) || (num2 % num == 0))) {
          System.out.println("One of these numbers is");
          System.out.println("   evenly divisible into the other");
-      }
-      else{
+      } else {
          System.out.println("Neither of these numbers is evenly divisible into the other");
       }
-
+      input.close();
    }
 }
