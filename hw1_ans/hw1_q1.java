@@ -10,5 +10,7 @@ public class hw1_q1 {
         System.out.println("Total: $" + guests * 35);
         boolean large = guests >= 50;
         System.out.println("Large event: " + large);
+
+        input.close();
     }
 }
