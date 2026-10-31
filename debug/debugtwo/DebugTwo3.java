@@ -1,8 +1,7 @@
 import java.util.Scanner;
-public class DebugTwo3
-{
-   public static void main(String[] args)
-   {
+
+public class DebugTwo3 {
+   public static void main(String[] args) {
       int a, b;
       int result, remainder;
       Scanner input = new Scanner(System.in);
@@ -15,5 +14,7 @@ public class DebugTwo3
       System.out.println("Divide " + a + " by " + b);
       System.out.println("Result is " + result);
       System.out.println("Remainder is " + remainder);
+
+      input.close();
    }
 }
